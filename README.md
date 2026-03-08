@@ -1,367 +1,125 @@
-# 🛡️ ASTRA KAVACH – Agentic AI Watch
+🛡️ ASTRA KAVACH – Agentic AI Smart City Protection System
+AI-Powered Cybersecurity, Infrastructure Security & Threat Monitoring Platform
 
-### AI-Powered Cybersecurity & Physical Threat Protection System
+Founder: Subhampreet Singh
+Team: Quantum Hackers
+Project Type: Agentic AI + Cybersecurity + IoT + Smart Infrastructure
+Status: Prototype Ready | Hackathon Ready | Scalable to Smart Cities
 
-**Founder:** Subhampreet Singh
-**Team:** Quantum Hackers
-**Project Type:** Agentic AI + Embedded + Cybersecurity + IoT
-**Status:** Production-Ready | Hackathon-Ready | Scalable
+🌍 Overview
 
----
+ASTRA KAVACH is an Agentic AI-powered Smart City Protection System designed to monitor, detect, and respond to cyber threats, physical threats, and infrastructure risks across an entire city environment.
 
-# 📖 Overview
+The platform integrates IoT sensors, AI decision engines, wireless intelligence, cloud monitoring, and remote command systems into a single centralized city-wide security platform.
 
-**ASTRA KAVACH** is an advanced **Agentic AI-powered wearable security platform** designed to protect users from:
+ASTRA KAVACH acts as an Autonomous Digital Guardian for Smart Cities.
 
-* Cyber threats
-* Wireless attacks
-* Unauthorized access
-* Physical threats
-* Surveillance risks
+🎯 Problem Statement
 
-It integrates **ESP32 hardware, AI voice intelligence, VPS cloud backend, and Telegram command control** into a single unified security ecosystem.
+Modern cities face increasing risks from:
 
-ASTRA KAVACH acts as an **autonomous digital bodyguard.**
+• Cyber attacks on infrastructure
+• Unauthorized wireless access
+• IoT device compromise
+• Public safety threats
+• Surveillance vulnerabilities
+• Infrastructure monitoring gaps
 
----
+Current security systems are fragmented and reactive.
 
-# ⚡ Core Features
+ASTRA KAVACH solves this by creating an AI-driven proactive defense system.
 
-## 🤖 AI Agent Features
+⚡ Core Capabilities
+🤖 Agentic AI Threat Intelligence
 
-* Agentic AI decision-making
-* Autonomous threat detection
-* Voice interaction (ElevenLabs integration ready)
-* Intelligent alert system
+The system uses autonomous AI agents to continuously analyze data from multiple sensors.
 
----
+Capabilities include:
 
-## 📡 Cybersecurity Protection
+• Autonomous threat detection
+• Pattern recognition in wireless networks
+• AI-driven anomaly detection
+• Intelligent alert generation
+• Automated response suggestions
 
-* WiFi threat monitoring
-* Bluetooth environment awareness
-* Signal intelligence logging
-* Remote command execution
+📡 Cybersecurity Monitoring
 
----
-
-## 🌍 Cloud Connectivity
-
-* Real-time VPS communication
-* Live telemetry monitoring
-* Secure API architecture
-* Remote control capability
-
----
-
-## 📱 Telegram Control Center
-
-Control your device remotely:
-
-Commands:
-
-```
-/status
-/logs
-/gps
-/restart
-/alert
-```
-
----
-
-## 🖥️ Live Dashboard
+ASTRA KAVACH continuously monitors the digital environment of the city.
 
 Features:
 
-* Real-time logs
-* GPS tracking
-* Device status
-* Threat monitoring
+• WiFi attack detection
+• Rogue access point detection
+• Bluetooth activity monitoring
+• Wireless signal intelligence logging
+• RF environment monitoring
+
+🏙️ Smart Infrastructure Protection
+
+The platform integrates with urban IoT infrastructure to monitor real-world threats.
+
+Sensors supported:
+
+• Environmental sensors
+• Gas leak detection
+• Motion detection
+• Water level sensors
+• Smart camera systems
+• GPS tracking nodes
+
+☁️ Cloud Intelligence Platform
+
+All data is transmitted to a centralized cloud backend for analysis and visualization.
+
+Features:
+
+• Real-time telemetry monitoring
+• Secure API communication
+• Central command dashboard
+• Distributed node management
+• Historical data analytics
 
 Deployable on:
 
-* Netlify
-* VPS
-* Local server
+• VPS servers
+• Cloud infrastructure
+• Government data centers
 
----
+📱 Telegram Command Center
 
-## 📷 Hardware Expansion Support
+City administrators can control the system remotely.
 
-Supports integration with:
+Example commands:
 
-* ESP32-CAM
-* GPS Module
-* Microphone
-* Camera
-* Sensors
-* SDR modules
+/status
+/nodes
+/threats
+/logs
+/restart
+/alert
 
----
+Capabilities:
 
-# 🧠 System Architecture
+• Remote node monitoring
+• Instant alerts
+• Threat notifications
+• Emergency commands
 
-```
-                ┌───────────────┐
-                │ ASTRA KAVACH  │
-                │ ESP32 Watch   │
-                └──────┬────────┘
-                       │
-                       ▼
-                ┌───────────────┐
-                │ VPS Cloud     │
-                │ Backend       │
-                └──────┬────────┘
-                       │
-       ┌───────────────┼───────────────┐
-       ▼               ▼               ▼
- Telegram Bot     Web Dashboard      AI Voice
- Control          Monitoring         Assistant
-```
+🖥️ Live Smart City Dashboard
 
----
+The central monitoring dashboard provides a real-time view of the city security network.
 
-# 📁 Repository Structure
+Displays:
 
-```
-astra-kavach-ai-watch/
+• Active sensor nodes
+• Cyber threat alerts
+• Infrastructure status
+• Wireless activity maps
+• Sensor telemetry
+• Incident alerts
 
-firmware/
-backend/
-telegram/
-dashboard/
-ai/
-hardware/
-docs/
+Deployable on:
 
-README.md
-LICENSE
-```
-
----
-
-# ⚙️ Installation Guide
-
----
-
-# 1️⃣ VPS Backend Setup
-
-Install dependencies:
-
-```
-sudo apt update
-sudo apt install python3 python3-pip
-pip install flask
-```
-
-Run server:
-
-```
-python server.py
-```
-
----
-
-# 2️⃣ Telegram Bot Setup
-
-Create bot via:
-
-@BotFather
-
-Edit:
-
-```
-telegram/bot.py
-```
-
-Add:
-
-```
-TOKEN="YOUR_TOKEN"
-```
-
-Run:
-
-```
-python bot.py
-```
-
----
-
-# 3️⃣ Dashboard Setup
-
-Deploy:
-
-```
-dashboard/
-```
-
-On:
-
-* Netlify
-* VPS
-* Localhost
-
----
-
-# 4️⃣ ESP32 Firmware Setup
-
-Open:
-
-```
-firmware/esp32_watch/
-```
-
-Edit:
-
-```
-WiFi Name
-WiFi Password
-VPS IP
-```
-
-Upload using Arduino IDE.
-
----
-
-# 🔐 Security Features
-
-* Remote monitoring
-* Secure communication ready
-* Expandable encryption support
-* Modular architecture
-
----
-
-# 🧠 AI Integration
-
-Supports:
-
-* ElevenLabs
-* OpenAI
-* Offline AI engines
-
-Voice Assistant Capabilities:
-
-* Speak alerts
-* Respond to commands
-* Provide intelligence updates
-
----
-
-# 🚀 Hackathon Ready
-
-This project satisfies hackathon requirements:
-
-✔ Working prototype
-✔ Functional deployment
-✔ Innovation
-✔ Real-world use case
-✔ Technical depth
-
----
-
-# 🧪 API Endpoints
-
-Backend APIs:
-
-```
-POST /log
-POST /gps
-POST /camera
-GET /all
-```
-
----
-
-# 📡 Example Data
-
-```
-{
- "device": "astra_watch",
- "status": "active",
- "threat": "none"
-}
-```
-
----
-
-# 🛠️ Technology Stack
-
-Hardware:
-
-* ESP32
-* ESP32-CAM
-* GPS Module
-
-Software:
-
-* Python
-* Flask
-* Arduino
-
-Cloud:
-
-* VPS
-* Netlify
-
-AI:
-
-* ElevenLabs
-* Agentic AI architecture
-
----
-
-# 🔮 Future Roadmap
-
-Planned Features:
-
-* Mobile app
-* End-to-end encryption
-* OTA firmware updates
-* Live video streaming
-* Autonomous defense mode
-
----
-
-# 👨‍💻 Author
-
-Subhampreet Singh
-Cybersecurity Researcher
-Embedded Systems Developer
-Agentic AI Engineer
-
----
-
-# ⚠️ Legal Disclaimer
-
-This project is intended for:
-
-* Educational use
-* Research purposes
-* Ethical security development
-
-Do not use for illegal activities.
-
----
-
-# 📜 License
-
-MIT License
-
----
-
-# ⭐ Support the Project
-
-If you like this project:
-
-Star ⭐ the repo
-Fork 🍴 the repo
-Contribute 🤝
-
----
-
-# 🛡️ ASTRA KAVACH
-
-**Your Safety is My Responsibility**
+• Netlify
+• VPS
+• Local servers
